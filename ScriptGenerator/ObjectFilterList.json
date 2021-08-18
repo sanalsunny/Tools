@@ -1,0 +1,43 @@
+{
+    "DBs": [
+      {
+        "DBName": "DB_Name",
+        "ExcludedObjects": [
+          {
+            "ObjectType": "StoredProcedure",
+            "ObjectNames": [ "object names in an array " ]
+          },
+          {
+            "ObjectType": "Baseline",
+            "ObjectNames": null
+          },
+          {
+            "ObjectType": "View",
+            "ObjectNames": null
+          },
+          {
+            "ObjectType": "UserDefinedFunction",
+            "ObjectNames": null
+          }
+        ],
+        "ScriptSpecificOnes": [
+          {
+            "ObjectType": "StoredProcedure",
+            "ObjectNames": null
+          },
+          {
+            "ObjectType": "Baseline",
+            "ObjectNames": null
+          },
+          {
+            "ObjectType": "View",
+            "ObjectNames": null
+          },
+          {
+            "ObjectType": "UserDefinedFunction",
+            "ObjectNames": null
+          }
+        ]
+      }
+    ]
+  }
